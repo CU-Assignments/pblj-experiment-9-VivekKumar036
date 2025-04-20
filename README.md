@@ -5,18 +5,30 @@ This is a basic Hibernate-based Java application to perform CRUD (Create, Read, 
 
 ## Project Structure
 **HibernateStudentCRUD
+
 ├── src/
-│   └── com/example/hibernate/
-│       ├── Student.java            # Entity class
-│       ├── StudentDAO.java         # Data access object class for CRUD operations
-│       └── MainApp.java            # Main application class to test CRUD operations
+
+       └── com/example/hibernate/
+
+             ├── Student.java            # Entity class
+
+             ├── StudentDAO.java         # Data access object class for CRUD operations
+  
+             └── MainApp.java            # Main application class to test CRUD operations
+
 ├── lib/                            # Folder for external JAR dependencies
-│   ├── hibernate-core-5.6.12.Final.jar
-│   ├── mysql-connector-java-8.0.26.jar
-│   ├── jakarta.persistence-api-2.2.3.jar
-│   └── hibernate-commons-annotations-5.1.2.Final.jar
+
+     ├── hibernate-core-5.6.12.Final.jar
+
+     ├── mysql-connector-java-8.0.26.jar
+
+     ├── jakarta.persistence-api-2.2.3.jar
+
+     └── hibernate-commons-annotations-5.1.2.Final.jar
+
 ├── hibernate.cfg.xml               # Hibernate configuration file
-└── .gitignore                      # To ignore unnecessary files in Git**
+
+├── .gitignore                      # To ignore unnecessary files in Git**
 
 
 ## Requirements
@@ -42,13 +54,21 @@ Edit
 <property name="hibernate.connection.password">root</property>
 
 3. **Add Dependencies**
+
+
 Download and place the necessary JAR files in the lib/ folder:
+
 hibernate-core-5.6.12.Final.jar
+
 mysql-connector-java-8.0.26.jar
+
 jakarta.persistence-api-2.2.3.jar
+
 hibernate-commons-annotations-5.1.2.Final.jar
 
-4. **Run the Application**
+
+
+5. **Run the Application**
 Open and run the MainApp.java file. It will perform the following operations:
 
 Create a new student in the database.
