@@ -1,0 +1,28 @@
+# Java
+*.class
+*.log
+*.swp
+*.bak
+*.idea/
+*.settings/
+*.project
+*.classpath
+
+# Eclipse
+.metadata/
+*.tmproj
+*.launch
+*.prefs
+
+# Maven / Gradle
+target/
+.idea/
+*.iml
+build/
+
+# MySQL Database files (if any)
+*.sql
+*.db
+
+# Hibernate Files
+hibernate.cfg.xml
