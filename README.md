@@ -89,17 +89,10 @@ Update: Modifies an existing student's information (name and age).
 
 Delete: Removes the student record from the database.
 
-**Technologies Used**
-Java 8+
-
-Hibernate ORM
-
-MySQL Database
-
-Maven/Gradle (Optional for managing dependencies)
 
 **Notes**
 Ensure you have MySQL installed and running on your machine.
 
 Modify the database connection properties in hibernate.cfg.xml if necessary
+
 
