@@ -75,6 +75,7 @@ Update the student details.
 Delete the student record.
 
 **How the Application Works**
+
 Create: Adds a new student to the students table in the MySQL database.
 
 Read: Retrieves and prints the student information.
