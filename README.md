@@ -7,16 +7,21 @@ This is a basic Hibernate-based Java application to perform CRUD (Create, Read, 
 **HibernateStudentCRUD
 
 ├── src/
+
        └── com/example/hibernate/
              ├── Student.java            # Entity class
              ├── StudentDAO.java         # Data access object class for CRUD operations
              └── MainApp.java            # Main application class to test CRUD operations
-├── lib/                            # Folder for external JAR dependencies
+             
+├── lib/                             # Folder for external JAR dependencies
+
      ├── hibernate-core-5.6.12.Final.jar
      ├── mysql-connector-java-8.0.26.jar
      ├── jakarta.persistence-api-2.2.3.jar
      └── hibernate-commons-annotations-5.1.2.Final.jar
+     
 ├── hibernate.cfg.xml               # Hibernate configuration file
+
 ├── .gitignore                      # To ignore unnecessary files in Git**
 
 
