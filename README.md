@@ -53,6 +53,7 @@ Edit
 <property name="hibernate.connection.username">root</property>
 <property name="hibernate.connection.password">root</property>
 
+
 3. **Add Dependencies**
 
 
